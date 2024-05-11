@@ -1,74 +1,83 @@
 // 1)
 
+// const words = "D:/Qudrat_c++/books/My_book.exe";
+
+// let result = words.split("");
+
+// console.log(result)
+
 // 2)
 
-const numbers = [];
+// let arrBracket = [].reduce((acc, curVal) => {
+//   acc += curVal;
+//   return acc;
+// }, 0);
 
-function getSum3(n) {
-  for (let i = 1; i <= n.length; i++) {
-    if (i % 3 == 0) {
-      numbers.push(i);
-    }
-  }
-  console.log(numbers);
-}
-
-getSum3(15);
-
-// 3)
-
-// let arrBracket = [];
-// let finish = arrBracket.reduce((acc, curVal) => (acc += curVal));
-// let n = 2;
-
-// function daraja2(n) {
-//   for (let i = 0; i <= n; i++) {
-//     let result = (n + i) ** 2;
-//     arrBracket.push(result);
+// function getSum3(n) {
+//   for (let i = 1; i < n; i++) {
+//     if (i % 3 == 0) {
+//       let result = arrBracket.push(i);
+//     }
 //   }
 // }
 
+// getSum3(6);
+
 // console.log(arrBracket);
+
+// 3)
+// let finish = arrBracket.reduce((acc, curVal) => (acc += curVal))
+
+// function daraja2(n) {
+//   let sum = 0;
+//   for (let i = n; i <= 2 * n; i++) {
+//     sum += i * i;
+//   }
+//   return sum;
+// }
+
+// let n = 5;
+// let result = daraja2(n);
+// console.log(result);
 
 // 4)
 
 // const ismlar = ["Abdulaziz", "Safarmurod", "O’rol", "Jahongir"];
 
 // function elementlarSoni(n) {
-//   for (let i = 0; i <= ismlar.length; i++) {
-//     let soni = ismlar[i].split("").length();
-//     console.log(ismlar[i], soni);
+//   for (let i = 0; i < ismlar.length; i++) {
+//     let soni = ismlar[i].length;
+//     console.log(`${ismlar[i]}: ${soni}`);
 //   }
 // }
 
+// elementlarSoni();
+
 // 5)
 
-// let n = 3;
-// const obj = {
-//   a: 2,
-//   b: 3,
-//   c: 4,
-//   d: 6,
-// };
+// let a = +prompt("Birinchi sonni kiriting:");
+// let b = +prompt("Ikkinchi sonni kiriting:");
+// let c = +prompt("Uchinchi sonni kiriting:");
+// let d = +prompt("To'rtinchi sonni kiriting:");
+// let n = +prompt("Shu sonlar nechaga kopaysin:");
 
-// function getMultipleValues(n) {
-//   let resa = obj.a * n;
-//   let resb = obj.b * n;
-//   let resc = obj.c * n;
-//   let resd = obj.d * n;
-// }
-
-// let result = {
-//   resa,
-//   resb,
-//   resc,
-//   resd,
-// };
-// console.log(result);
+// console.log(a * n);
+// console.log(b * n);
+// console.log(c * n);
+// console.log(d * n);
 
 // 6)
 
 // const a = [1, 2, 3, 4, 5, 6];
+
+// let kichik = Math.min(a);
+// let katta = Math.max(a);
+
+// if (!kichik || !katta) {
+//   console.log(0);
+// } else {
+//   console.log(kichik, katta);
+// }
 
 // 7)
 
